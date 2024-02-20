@@ -62,14 +62,19 @@
     <Compile Include="Assets\Scripts\Items\Weapon.cs" />
     <Compile Include="Assets\Scripts\Timer\Timer.cs" />
     <Compile Include="Assets\Scripts\Items\Item2.cs" />
-    <Compile Include="Assets\Scripts\Weapon\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Weapon2\Bullet.cs" />
     <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Weapon\BulletTraycer.cs" />
-    <Compile Include="Assets\Scripts\Weapon\Gun.cs" />
+    <Compile Include="Assets\Scripts\Weapon2\BulletTraycer.cs" />
+    <Compile Include="Assets\Scripts\Weapon2\Gun.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\GunScript.cs" />
+    <Compile Include="Assets\Scripts\Player\RaycastGun.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerLook.cs" />
     <Compile Include="Assets\Scripts\Items\Item1.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\Player\GravityGun.cs" />
     <Compile Include="Assets\Scripts\Highlight.cs" />
+    <Compile Include="Assets\Scripts\Player\PadlockController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
