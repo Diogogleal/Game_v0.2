@@ -360,6 +360,7 @@
 "Assets/Scripts/Player/GravityGun.cs"
 "Assets/Scripts/Player/GunScript.cs"
 "Assets/Scripts/Player/Interactor.cs"
+"Assets/Scripts/Player/PadlockController.cs"
 "Assets/Scripts/Player/PlayerLook.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/Player/RaycastGun.cs"
