@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Selectable
+  - InteractiveObject
+  - Target
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - TextInGame
   - Water
   - UI
   - 
@@ -41,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Text
+    uniqueID: 504461821
     locked: 0
