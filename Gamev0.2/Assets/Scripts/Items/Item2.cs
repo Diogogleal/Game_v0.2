@@ -7,7 +7,7 @@ public class Item2 : MonoBehaviour, IInteractable
     public void Interact()
     {
         
-        Debug.Log("Interacting with Item2");
-        Destroy(gameObject);
+        Debug.Log("Note");
+        
     }
 }

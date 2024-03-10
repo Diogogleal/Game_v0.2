@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false;
             if (Input.GetButtonDown("Jump"))
             {
-                Jump();
+                //Jump();
             }
         }
         Vector3 PlayerInput = new Vector3

@@ -8,7 +8,6 @@ public class Item1 : MonoBehaviour, IInteractable
     {
         
         Debug.Log("Interacting with Item1");
-        Destroy(gameObject);
         
     }
 }

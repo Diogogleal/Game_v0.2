@@ -12,11 +12,14 @@ public class Interactor : MonoBehaviour
     public int itemTypecount1;
     public int itemTypecount2;
     public GameObject weapon;
+    public GameObject note;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         weapon.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -37,8 +40,9 @@ public class Interactor : MonoBehaviour
                     if (item1 != null)
                     {
                         Debug.Log("Interacting with Item1");
-                        itemTypecount1++;
-                        Debug.Log("Item1 type count:" + itemTypecount1);
+                        note.SetActive(true);
+                        Time.timeScale = 0f;
+                        Debug.Log("Game Paused");
                         // Add specific actions for Item1 if needed
                     }
                     else if (item2 != null)
@@ -63,5 +67,12 @@ public class Interactor : MonoBehaviour
         {
             weapon.SetActive(false);
             Debug.Log("Weapon Dropped");
-        } }
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            note.SetActive(false);
+            Time.timeScale = 1f;
+            Debug.Log("Game unPaused");
+        }
+    }
 }
